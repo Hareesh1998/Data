@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "cars.csv",
+				"folderPath": "HTTPS/Hareesh1998/Data/refs/heads/main",
 				"container": "landing"
 			},
 			"columnDelimiter": ",",
