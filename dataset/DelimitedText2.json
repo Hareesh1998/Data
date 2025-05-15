@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"folderPath": "HTTPS",
 				"container": "landing"
 			},
 			"columnDelimiter": ",",
