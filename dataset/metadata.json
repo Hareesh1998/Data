@@ -1,5 +1,5 @@
 {
-	"name": "Lookup_landing",
+	"name": "metadata",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
