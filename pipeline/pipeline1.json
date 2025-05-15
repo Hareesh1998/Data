@@ -84,10 +84,6 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"modifiedDatetimeEnd": {
-								"value": "@string(activity('Lookup1').output.firstRow.curr_date)",
-								"type": "Expression"
-							},
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -117,7 +113,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText2",
+						"referenceName": "Lookup_landing",
 						"type": "DatasetReference"
 					}
 				],
